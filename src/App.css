@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+button {
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
 .navbar {
     font-size: 2rem;
     padding: 1em;
@@ -26,10 +32,17 @@
     border-radius: 50%;
 }
 
-button {
-    outline: none;
-    border: 0;
-    cursor: pointer;
+.add-input {
+    font-size: 2rem;
+    margin-right: 0.2em;
+}
+
+.add-button {
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 0.3em 0.5em;
+    background-color: green;
+    color: white;
 }
 
 .habit {
